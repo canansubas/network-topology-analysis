@@ -17,20 +17,25 @@ This project documents the network topology of a home lab environment created fo
 - DNS Server: 192.168.1.1
 
 ## Topology Diagram
+```
 Internet (VDSL)
 	|
-[VDSL Modem]
- 192.168.1.1
+	v
+[VDSL Modem    ]
+[192.168.1.1   ]
 	|
-[Host Machine]
-192.168.1.x
+	v
+[Host Machine  ]
+[192.168.1.x   ]
 	|
+	v
 [VirtualBox NAT]
-10.0.2.1
+[10.0.2.1      ]
 	|
-[Kali Linux]
-10.0.2.5
-
+	v
+[Kali Linux    ]
+[10.0.2.5      ]
+```
 ## Commands Used
 
 ### Network Configuration
